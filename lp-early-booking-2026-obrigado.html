@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cupom garantido! | Early Booking 2026 — Pousada das Pedras</title>
+<title>Seu cupom chegou! | Early Booking 2026 — Pousada das Pedras</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --verde:#356869;
+    --verde:#455d5c;          /* verde musgo */
     --verde-escuro:#2b3d3c;
     --bege:#ecc8a5;
-    --off-white:#f7f5f1;
+    --off-white:#e5e1e6;
     --cinza-texto:#3c4443;
     --branco:#ffffff;
   }
@@ -23,11 +23,11 @@
   a{text-decoration:none}
   .container{max-width:760px;margin:0 auto;padding:0 24px}
   .btn{display:inline-block;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:14px;padding:16px 34px;border-radius:6px;transition:all .25s ease;cursor:pointer;border:none;text-align:center}
-  .btn-bege{background:var(--bege);color:var(--verde-escuro)}
+  .btn-bege{background:var(--bege);color:var(--verde)}
   .btn-bege:hover{background:#e2b98f;transform:translateY(-2px)}
 
   /* ===== HERO ===== */
-  .hero{position:relative;background:var(--verde-escuro);color:var(--branco);overflow:hidden;text-align:center;padding-bottom:80px}
+  .hero{position:relative;background:var(--verde-escuro);color:var(--branco);overflow:hidden;text-align:center;padding-bottom:90px}
   .hero-bg{position:absolute;inset:0;background:url('https://raw.githubusercontent.com/giuiia/Pedras-EB/main/pedrasbanner.png') center/cover no-repeat}
   .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,61,60,.6) 0%,rgba(43,61,60,.9) 100%)}
   .hero > .container{position:relative;z-index:2}
@@ -37,29 +37,17 @@
   .hero .sub{font-size:16px;color:#d8e0de;max-width:520px;margin:0 auto 36px}
 
   /* Cupom */
-  .cupom-box{background:rgba(255,255,255,.07);border:1.5px dashed var(--bege);border-radius:14px;max-width:420px;margin:0 auto 14px;padding:26px 24px}
+  .cupom-box{background:rgba(255,255,255,.07);border:1.5px dashed var(--bege);border-radius:14px;max-width:420px;margin:0 auto 28px;padding:26px 24px}
   .cupom-box .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.22em;color:#c3cfcc;margin-bottom:10px}
   .cupom-box .codigo{font-size:36px;font-weight:700;letter-spacing:.14em;color:var(--bege)}
   .copiar{background:none;border:1px solid rgba(255,255,255,.35);color:var(--branco);border-radius:100px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;padding:8px 20px;margin-top:16px;cursor:pointer;transition:all .2s}
   .copiar:hover{background:rgba(255,255,255,.12)}
-  .hero .nota{font-size:11.5px;color:#a9b8b5;margin-top:16px}
-
-  /* ===== COMO USAR ===== */
-  .como-usar{padding:80px 0;background:var(--off-white)}
-  .como-usar h2{font-family:'Playfair Display',serif;font-size:clamp(24px,3.5vw,32px);color:var(--verde);text-align:center;font-weight:600;margin-bottom:48px}
-  .passos{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-bottom:52px}
-  .passo{background:var(--branco);border-radius:14px;padding:32px 26px;text-align:center;box-shadow:0 6px 24px rgba(53,104,105,.08)}
-  .passo .num{width:44px;height:44px;border-radius:50%;background:var(--verde);color:var(--branco);font-weight:700;font-size:18px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
-  .passo h3{font-size:14px;color:var(--verde);text-transform:uppercase;letter-spacing:.12em;font-weight:700;margin-bottom:10px}
-  .passo p{font-size:14px}
-  .cta-centro{text-align:center}
-  .cta-centro .aviso{font-size:11.5px;color:#7a8683;margin-top:14px}
+  .hero .nota{font-size:11.5px;color:#a9b8b5;margin-top:18px;max-width:460px;margin-left:auto;margin-right:auto}
 
   footer{background:#000;color:#9aa5a3;text-align:center;padding:36px 24px;font-size:12.5px}
-  footer .logo-txt{font-family:'Playfair Display',serif;color:var(--branco);font-size:20px;margin-bottom:6px}
+  footer .logo-img{width:150px;margin:0 auto 14px;display:block}
   footer .oficial{color:var(--bege);font-weight:600}
-
-  @media (max-width:760px){.passos{grid-template-columns:1fr}}
+  footer a{color:var(--bege)}
 </style>
 </head>
 <body>
@@ -69,51 +57,26 @@
   <div class="hero-overlay"></div>
   <div class="container">
     <img class="hero-logo" src="https://raw.githubusercontent.com/giuiia/Pedras-EB/main/pedraslogo.png" alt="Pousada das Pedras — Monte Verde, MG">
-    <div class="check">✓</div>
-    <h1>Cadastro confirmado!</h1>
-    <p class="sub">Sua escapada em Monte Verde está mais perto. Use o cupom abaixo e garanta <strong>15% OFF</strong> na sua reserva.</p>
-    <!-- TODO: confirmar código oficial do cupom 2026 (PROMO15 = código de 2025) -->
+    <div class="check">🎉</div>
+    <h1>Seu cupom chegou!</h1>
+    <p class="sub">Use o código abaixo ao fazer sua reserva e garanta <strong>15% OFF</strong> na sua estadia em Monte Verde.</p>
     <div class="cupom-box">
       <p class="lbl">Seu cupom exclusivo</p>
-      <p class="codigo" id="codigo-cupom">PROMO15</p>
+      <p class="codigo" id="codigo-cupom">15PEDRAS</p>
       <button class="copiar" onclick="copiarCupom(this)">Copiar código</button>
     </div>
-    <p class="nota">Também enviamos o cupom para o seu e-mail. Confira a caixa de entrada (e o spam).</p>
+    <!-- TODO: confirmar URL do site institucional oficial da pousada -->
+    <a class="btn btn-bege" href="https://pousadadaspedras.com.br" target="_blank" rel="noopener">Voltar para o site</a>
+    <p class="nota">O cupom também será enviado para o e-mail cadastrado. Válido até 30/09/2026 · Exceto feriados · Mín. 2 diárias.</p>
   </div>
 </header>
 
-<section class="como-usar">
-  <div class="container" style="max-width:900px">
-    <h2>Como usar seu desconto</h2>
-    <div class="passos">
-      <div class="passo">
-        <div class="num">1</div>
-        <h3>Acesse as reservas</h3>
-        <p>Clique no botão abaixo e vá direto ao nosso motor de reservas oficial.</p>
-      </div>
-      <div class="passo">
-        <div class="num">2</div>
-        <h3>Escolha suas datas</h3>
-        <p>Selecione o chalé e datas com check-in entre agosto e novembro de 2026.</p>
-      </div>
-      <div class="passo">
-        <div class="num">3</div>
-        <h3>Aplique o cupom</h3>
-        <p>Insira o código no campo de cupom e veja o desconto de 15% aplicado.</p>
-      </div>
-    </div>
-    <div class="cta-centro">
-      <!-- TODO: substituir [URL_RESERVAS] pelo link do motor de reservas -->
-      <a class="btn btn-bege" style="background:var(--verde);color:var(--branco)" href="[URL_RESERVAS]?utm_source=lp&utm_medium=pagina_obrigado&utm_campaign=early-booking-2026">Reservar agora com 15% OFF</a>
-      <p class="aviso">Cupom válido até 30/09, com no mínimo duas diárias. Não acumulativo com outras promoções.</p>
-    </div>
-  </div>
-</section>
-
 <footer>
-  <p class="logo-txt">Pousada das Pedras</p>
+  <img class="logo-img" src="https://raw.githubusercontent.com/giuiia/Pedras-EB/main/pedraslogo.png" alt="Pousada das Pedras">
   <p>Monte Verde, MG · Serra da Mantiqueira</p>
+  <p style="margin-top:8px">Instagram: <a href="https://instagram.com/pousadadaspedrasmv" target="_blank" rel="noopener">@pousadadaspedrasmv</a></p>
   <p style="margin-top:10px">Este é o <span class="oficial">canal oficial</span> da Pousada das Pedras. Reservas somente pelo site e central oficiais.</p>
+  <p style="margin-top:10px">© 2026 Pousada das Pedras. Todos os direitos reservados.</p>
 </footer>
 
 <script>
